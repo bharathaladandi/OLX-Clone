@@ -57,6 +57,8 @@ export const Product = () => {
     };
   }, [limit, id]);
 
+
+  
   useEffect(() => {
     if (sort === "lth") {
       productdata.sort(

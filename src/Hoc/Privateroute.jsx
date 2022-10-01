@@ -11,7 +11,10 @@ export const Privateroute = ({children}) => {
         pathname: location.pathname,
       };
 
+
     if(isAuth) return children;
     return <Navigate to={"/"} state={from} replace />
 }
+
+
 

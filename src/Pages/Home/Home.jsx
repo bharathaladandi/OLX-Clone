@@ -87,6 +87,7 @@ export const Home = () => {
                 </Box>
               </SimpleGrid>
             </>
+
           ) : (
             <SimpleGrid columns={[1, 1, 2, 2, 4]} spacing={5}>
               {data.map((item, i = 1) => (
@@ -160,4 +161,7 @@ export const Home = () => {
       <br />
     </>
   );
+
 };
+
+
